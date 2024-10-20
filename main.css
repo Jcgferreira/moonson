@@ -1,0 +1,212 @@
+body {
+    background:#dfdfdf;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+header h1 {
+    margin-top: 12px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.815);
+    color: #fff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #3b5c537a;
+}
+
+
+.nav-pills .nav-item{
+    padding: 20px;
+}
+
+a.nav-link {
+    color: #fff;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.815);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+
+#sobre {
+    padding: 36px;
+}
+
+#sobre .container article{
+    padding: 24px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#sobre .container p {
+    font-weight: 500;
+    font-style: italic;
+    text-align: start;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: large;
+}
+#sobre .container img {
+    height: 870px;
+    object-fit: none;
+    width: 692px;
+}
+
+section {
+    padding: 24px;
+    padding-top: 100px;
+}
+
+section h2 {
+    padding: 24px;
+    margin-bottom: 36px;
+    border: black 1px solid;
+    text-shadow: 1px 4px 7px #000;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#uniforme h3 {
+    padding: 24px;
+    margin-bottom: 36px;
+    border-bottom: black 1.5px solid;
+    text-shadow: 1px 4px 7px #000;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#uniforme, #titulos {
+    padding-bottom: 40px;
+    padding-top: 70px;
+    height: 75vh;
+}
+
+#elenco .container .elenco-cards {
+    display: grid;
+    grid-template-columns: 39% 39% 22%;
+}
+
+#elenco .container .elenco-cards .card img {
+    height: 337px;
+    width: 268px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+#elenco .container .elenco-cards .card {
+    margin-bottom: 24px;
+}
+
+#social .row .container article img{
+    max-height: 70%;
+}
+
+#social .row .container article a {
+    margin: 24px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    padding: 36px;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: #fff;
+}
+
+.navbar .offcanvas-body{
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #navdesktop {
+        display: none;
+    }
+
+    header h1, header p {
+        margin-left: 10px;
+    } 
+
+    #elenco .container .elenco-cards {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        justify-content: center;
+    }
+
+    #social img {
+        max-width: 90%;
+    }
+
+    #cabecalho h1, strong{
+        display: none;
+    }
+
+    header .row {
+        justify-content: flex-end;
+    }
+
+    header {
+        margin-top: 56px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #navdesktop {
+        display: none;
+    }
+
+    header h1, header p {
+        margin-left: 10px;
+    }
+
+    #sobre .container article{
+    padding: 0;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+    #uniforme h3 {
+        padding: 20px;
+    }
+
+    #elenco .container .elenco-cards {
+        display: inline;
+    }
+
+    #elenco .container .row-11 {
+        margin-left: 122px;
+    }
+
+    #social img {
+        max-width: 90%;
+    }
+
+    #cabecalho h1, strong{
+        display: none;
+    }
+
+    header .row {
+        justify-content: flex-end;
+    }
+
+    header {
+        margin-top: 56px
+    }
+
+    footer .container{
+        font-size: 0.8rem;
+    }
+
+    #sobre article {
+        display: inline;
+    }
+}
