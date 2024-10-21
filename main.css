@@ -80,7 +80,7 @@ section h2 {
 #uniforme, #titulos {
     padding-bottom: 40px;
     padding-top: 70px;
-    height: 75vh;
+    margin-bottom: 200px;
 }
 
 #elenco .container .elenco-cards {
@@ -166,7 +166,7 @@ footer {
     }
 
     .navbar a {
-        font-size: 1.0rem;
+        font-size: 0.7rem;
     }
 
     header h1, header p {
@@ -180,7 +180,7 @@ footer {
 
     #uniforme h3 {
         padding: 20px;
-        font-size: 1.0rem;
+        font-size: 0.6rem;
     }
 
     #elenco .container .elenco-cards {
@@ -188,7 +188,7 @@ footer {
     }
 
     #elenco .container .row-11 {
-        margin-left: 50px;
+        margin-left: 8px;
     }
 
     #social img {
@@ -208,7 +208,7 @@ footer {
     }
 
     footer .container{
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
 
     #sobre article {
